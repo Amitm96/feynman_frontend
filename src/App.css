@@ -28,6 +28,62 @@
   color: #61dafb;
 }
 
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  background-color: aqua;
+  margin-top: 0px;
+  padding: 15px;
+}
+
+.navel{
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+
+.navlnk{
+  text-decoration: none;
+}
+
+.login{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 400px;
+  width: 300px;
+  margin: auto;
+  background-color: aquamarine;
+}
+
+.inpt{
+  width: auto;
+}
+
+.signup{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 400px;
+  width: 300px;
+  margin: auto;
+  background-color: aquamarine;
+}
+
+.btn{
+  background-color: black;
+  color: azure;
+  padding: 7px;
+  cursor: pointer;
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
